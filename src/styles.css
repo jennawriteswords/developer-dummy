@@ -4,6 +4,37 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 56px !important;
+    color: var(--primary-color);
+  }
+  h2 {
+    font-size: 24px !important;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+
+  .center-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact-me {
+    font-size: 36px !important;
+  }
+
+  .disappear {
+    display: none;
+  }
+  .priority {
+    width: 100%;
+  }
+}
+
 h1,
 h2,
 h3 {
